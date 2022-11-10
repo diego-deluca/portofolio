@@ -1,0 +1,53 @@
+:root {
+  --color-body: #338d8c;
+  --color-heading: #eef3db;
+  --color-base: #1a4645;
+  --color-base2: #051821;
+  --color-brand: #f8bc24;
+  --color-brand2: #f58800;
+}
+/* other colors
+ --color-body: #b6cbce;
+  --color-heading: #eef3db;
+  --color-base: #033f47;
+  --color-base2: #022a30;
+  --color-brand: #e0f780;
+  --color-brand2: #eeff58;
+*/
+body {
+  background-color: var(--color-base2);
+  color: var(--color-body);
+  font-family: "Fredoka One", cursive;
+  user-select: none;
+  font-size: 1.2em;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-heading);
+  }
+  a {
+    transition: all 0.4s ease;
+    color: var(--color-brand);
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--color-brand2);
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.full-height {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 0 80px;
+  border-bottom: 2px solid #00000042;
+}

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diego Deluca | FrontEnd Dev</title>
+    <!-------------------BOOTSTRAP-------------------->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <!-------------------FONTAWESOME CDN-------------------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-------------------AOS-------------------->
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
+    <!-------------------DEFAULT-------------------->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-------------NAVBAR START------------->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mb-lg-4 mx-lg-auto" href="#"
+          ><span class="h3 d-block d-lg-none">Diego Deluca</span>
+          <img
+            src="images/3.png "
+            class="d-none d-lg-block rounded-circle"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav flex-lg-column text-lg-center ms-auto">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#about">Why me?</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#work">Work</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-------------//////////NAVBAR END------------->
+
+    <!-------------CONTENT START------------>
+    <main id="content-wrapper">
+      <!-------------HOME SECTION------------>
+      <section id="home" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <h1 class="display-4" data-aos="fade-up">
+                Hi, I'm Diego,
+                <span class="display-4 text-brand">Web developer</span>
+              </h1>
+              <p data-aos="fade-up" data-aos-delay="200">
+                <i class="fa-solid fa-palette"></i
+                ><span class="ps-2">Front End Developer</span>
+              </p>
+              <a href="#contact" class="btn-custom my-5 d-block">Contact Me!</a>
+            </div>
+            <div class="col-lg-8 text-center my-4">
+              <h4 class="text-decoration-underline" data-aos="fade-up">
+                Technologies I Know:
+              </h4>
+              <div class="i-icons">
+                <i
+                  class="fa-brands fa-bootstrap"
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                ></i>
+                <i
+                  class="fa-brands fa-sass"
+                  data-aos="fade-down"
+                  data-aos-delay="200"
+                ></i>
+                <i
+                  class="fa-brands fa-html5"
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                ></i>
+                <i
+                  class="fa-brands fa-css3-alt"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                ></i>
+                <i
+                  class="fa-brands fa-js"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------/////////HOME SECTION------------>
+
+      <!-------------ABOUT SECTION------------>
+      <section id="about" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row my-5">
+            <div
+              class="col-lg-12 flex-lg-column text-center"
+              data-aos="fade-up"
+            >
+              <h6 class="text-brand">WHY ME?</h6>
+              <h1>Soft Skills</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 pt-4 mx-lg-auto text-center i-icons2">
+              <p data-aos="fade-up" data-aos-delay="100">
+                <i class="fa-solid fa-hand-fist align-middle"></i
+                ><span class="ps-2">I'm a resilient person</span>
+              </p>
+              <p data-aos="fade-down" data-aos-delay="200">
+                <i class="fa-solid fa-baby align-middle"></i
+                ><span class="ps-2">Father of a beautiful daughter </span>
+              </p>
+              <p data-aos="fade-up" data-aos-delay="300">
+                <i class="fa-solid fa-book align-middle"></i
+                ><span class="ps-2">I like to learn a lot</span>
+              </p>
+
+              <p data-aos="fade-down" data-aos-delay="400">
+                <i class="fa-solid fa-jedi align-middle"></i
+                ><span class="ps-2">Wide variety of skills</span>
+              </p>
+              <p data-aos="fade-up" data-aos-delay="400">
+                <i class="fa-solid fa-cloud-sun align-middle"></i
+                ><span class="ps-2">Flexible in different environments</span>
+              </p>
+            </div>
+
+            <div class="col-lg-4 pt-4 mx-lg-auto text-center i-icons2">
+              <p data-aos="fade-down" data-aos-delay="100">
+                <i class="fa-solid fa-ghost align-middle"></i
+                ><span class="ps-2">I like to have challenges</span>
+              </p>
+              <p data-aos="fade-up" data-aos-delay="200">
+                <i class="fa-solid fa-road align-middle"></i
+                ><span class="ps-2">Creative, proactive and decisive</span>
+              </p>
+
+              <p data-aos="fade-down" data-aos-delay="300">
+                <i class="fa-solid fa-flag align-middle"></i
+                ><span class="ps-2">Worked in different countries</span>
+              </p>
+              <p data-aos="fade-up" data-aos-delay="400">
+                <i class="fa-solid fa-people-group align-middle"></i
+                ><span class="ps-2">Excelent working as a team</span>
+              </p>
+              <p data-aos="fade-down" data-aos-delay="400">
+                <i class="fa-solid fa-circle-exclamation align-middle"></i
+                ><span class="ps-2">Problem solving</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-lg-12 text-center my-4">
+              <h4
+                data-aos="fade-up"
+                data-aos-delay="150"
+                class="text-decoration-underline"
+              >
+                My favorite hobbies are:
+              </h4>
+            </div>
+          </div>
+
+          <div class="row text-center mt-2 i-icons3">
+            <span class="p-2 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <i class="fa-solid fa-person-swimming"></i> Swimming
+            </span>
+            <span
+              class="p-2 col-lg-3"
+              data-aos="fade-down"
+              data-aos-delay="350"
+            >
+              <i class="fa-solid fa-beer-mug-empty"></i> Brewing craft beer
+            </span>
+            <span class="p-2 col-lg-3" data-aos="fade-up" data-aos-delay="350">
+              <i class="fa-solid fa-gamepad"></i> Gaming
+            </span>
+            <span
+              class="p-2 col-lg-3"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
+              <i class="fa-solid fa-person-drowning"></i> Lifeguard
+            </span>
+          </div>
+          <div class="row text-center pt-5 mt-2">
+            <h5 data-aos="fade-up" data-aos-delay="100">
+              Check my personal profile on
+              <span
+                ><a
+                  href="https://www.instagram.com/diego_deluca404/"
+                  target="_blank"
+                  >Instagram</a
+                ></span
+              >
+            </h5>
+          </div>
+        </div>
+      </section>
+      <!-------------/////////ABOUT SECTION------------>
+
+      <!-------------SKILLS SECTION------------>
+      <section id="skills" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row my-5">
+            <div
+              class="col-lg-12 flex-lg-column text-center"
+              data-aos="fade-up"
+            >
+              <h6 class="text-brand">SKILLS</h6>
+              <h1>Hard Skills</h1>
+            </div>
+          </div>
+
+          <div class="row mx-lg-auto text-center i-icons3">
+            <div class="col-lg-4 pt-4" data-aos="fade-up">
+              <h5 class="text-decoration-underline">Computer</h5>
+
+              <p>
+                <i class="fa-solid fa-user-astronaut"></i>
+                <span class="ps-2">Ilustrator</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-user-astronaut"></i>
+                <span class="ps-2">Photoshop</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-user-astronaut"></i>
+                <span class="ps-2">HTML5</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-user-astronaut"></i>
+                <span class="ps-2">CSS3</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-user-astronaut"></i>
+                <span class="ps-2">Sass</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-user-astronaut"></i>
+                <span class="ps-2">Bootstrap</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-user-astronaut"></i>
+                <span class="ps-2">Javascript</span>
+              </p>
+            </div>
+
+            <div class="col-lg-4 pt-4" data-aos="fade-up" data-aos-delay="100">
+              <h5 class="text-decoration-underline">Electronics</h5>
+
+              <p>
+                <i class="fa-solid fa-bolt"></i>
+                <span class="ps-2">Soldering (military lvl)</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-bolt"></i>
+                <span class="ps-2">Failure analysis</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-bolt"></i>
+                <span class="ps-2">Blueprints reading</span>
+              </p>
+
+              <p>
+                <i class="fa-solid fa-bolt"></i>
+                <span class="ps-2">Installation</span>
+              </p>
+            </div>
+
+            <div class="col-lg-4 pt-4" data-aos="fade-up" data-aos-delay="200">
+              <h5 class="text-decoration-underline">Others</h5>
+
+              <p>
+                <i class="fa-solid fa-dumbbell"></i>
+                <span class="ps-2">Fork lift</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-dumbbell"></i>
+                <span class="ps-2">Bridge crane</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-dumbbell"></i>
+                <span class="ps-2">Electrictal installation</span>
+              </p>
+
+              <p>
+                <i class="fa-solid fa-dumbbell"></i>
+                <span class="ps-2">Carpentry (wood and aluminum)</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-dumbbell"></i>
+                <span class="ps-2">Lifeguard</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-dumbbell"></i>
+                <span class="ps-2">Beer Crafter</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-dumbbell"></i>
+                <span class="ps-2">Break Out Machine</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-dumbbell"></i>
+                <span class="ps-2">Thermo fusion</span>
+              </p>
+            </div>
+          </div>
+          <div class="row text-start mt-5 p-lg-4">
+            <div
+              class="col-lg-4 text-center i-icons3"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <h5 class="text-decoration-underline">Languages</h5>
+              <p>
+                <i class="fa-solid fa-flag"></i>
+                <span class="ps-2">Spanish Native</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-flag"></i>
+                <span class="ps-2">English C2 Proficient</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-flag"></i>
+                <span class="ps-2">Portuguese Basic</span>
+              </p>
+            </div>
+            <div
+              class="col-lg-4 text-center"
+              data-aos="fade-down"
+              data-aos-delay="300"
+            >
+              <h5>
+                <span
+                  >Check my professional profile on
+                  <a
+                    href="https://www.linkedin.com/in/diego-deluca/"
+                    target="_blank"
+                  >
+                    Linkedin</a
+                  ></span
+                >
+              </h5>
+
+              <h5><a href="">Download Resume</a></h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------/////////SKILSS SECTION------------>
+
+      <!-------------WORK SECTION------------>
+      <section id="work" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-12 flex-lg-column text-center">
+              <h6 class="text-brand">WORK</h6>
+              <h1>My Recent Projects</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="custom-card rounded-4 bg-secondary shadow-effect">
+                <div class="custom-card-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./images/Free-Screens-Website-Mockup-PSD-Template-750x430.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="custom-card-content p-4">
+                  <h3>Sex Shop WebSite Page</h3>
+                  <h6>
+                    Simple web designed to show information about family
+                    bussines
+                  </h6>
+                  <a href="#" class="custom-link">Check it Out!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="custom-card rounded-4 bg-secondary shadow-effect">
+                <div class="custom-card-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./images/Free-Screens-Website-Mockup-PSD-Template-750x430.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="custom-card-content p-4">
+                  <h3>Sex Shop WebSite Page</h3>
+                  <h6>
+                    Simple web designed to show information about family
+                    bussines
+                  </h6>
+                  <a href="#" class="custom-link">Check it Out!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="custom-card rounded-4 bg-secondary shadow-effect">
+                <div class="custom-card-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./images/Free-Screens-Website-Mockup-PSD-Template-750x430.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="custom-card-content p-4">
+                  <h3>Sex Shop WebSite Page</h3>
+                  <h6>
+                    Simple web designed to show information about family
+                    bussines
+                  </h6>
+                  <a href="#" class="custom-link">Check it Out!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="custom-card rounded-4 bg-secondary shadow-effect">
+                <div class="custom-card-image rounded-4">
+                  <img
+                    class="rounded-4"
+                    src="./images/Free-Screens-Website-Mockup-PSD-Template-750x430.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="custom-card-content p-4">
+                  <h3>Sex Shop WebSite Page</h3>
+                  <h6>
+                    Simple web designed to show information about family
+                    bussines
+                  </h6>
+                  <a href="#" class="custom-link">Check it Out!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------/////////WORK SECTION------------>
+
+      <!-------------CONTACT SECTION------------>
+      <section id="contact" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-12 flex-lg-column text-center">
+              <h6 class="text-brand">CONTACT</h6>
+              <h1>Contact Me</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="text-center ms-auto i-icons col-lg-12">
+              <a
+                href="mailto:diegodluca@live.com?subject=%20Interested%20in%20working%20with%20you"
+              >
+                <i
+                  class="fa-solid fa-envelope"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  ><h6>e-mail</h6></i
+                ></a
+              >
+
+              <a
+                href="https://www.instagram.com/diego_deluca404/"
+                target="_blank"
+              >
+                <i
+                  class="fa-brands fa-instagram"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  ><h6>instagram</h6></i
+                ></a
+              >
+
+              <a
+                href="https://www.linkedin.com/in/diego-deluca/"
+                target="_blank"
+              >
+                <i
+                  class="fa-brands fa-linkedin-in"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                  ><h6>linkedin</h6></i
+                ></a
+              >
+
+              <a href="https://walink.co/77009f" target="_blank">
+                <i
+                  class="fa-brands fa-whatsapp"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <h6>whatsapp</h6>
+                </i></a
+              >
+
+              <a href="#" target="_blank">
+                <i
+                  class="fa-solid fa-user-astronaut"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                >
+                  <h6>resume</h6>
+                </i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------/////////CONTACT SECTION------------>
+    </main>
+    <!-------------///////CONTENT END------------>
+
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
